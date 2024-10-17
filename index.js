@@ -14,7 +14,7 @@ const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
 });
-//more code to be added
+
 function main() {
     rl.question('Enter the message to encrypt: ', (message) => {
         const key = crypto.randomBytes(16);  
